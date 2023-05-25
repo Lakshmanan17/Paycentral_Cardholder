@@ -1,0 +1,88 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xen</groupId>
+  <artifactId>cardholder</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Cardholder_portal</name>
+  <description>The Card holder portal is origin of Pay central is online payment solution, It have multiple product type like Pay card, Gift card, Pay out card, Virtual card &amp; World card, Each and every product have unique functionality.  First we need to onboard the client, then create product for the Client. Client EFTs money into bank trust account using unique profile number as the mandatory recipient reference Each and every product have unique profile id allows  bank to allocate the money to the matching client profile on Pay Central  portal Client profile balance reflects on portal and cards ready for instant load Cards purchased (Online or manual process) then Cards dispatched to the client via courier Batch of cards will be linked to the clients profile by Pay Central and Card issued to employee by employer. Once card is loaded with money, a load SMS will notify cardholder of deposit. Card is ready to use Card accepted at all MasterCard/Visa terminals</description>
+
+<build>
+  <plugins>
+   <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.5</version>
+    <configuration>
+     <source>1.8</source>
+     <target>1.8</target>
+    </configuration>
+   </plugin>
+  </plugins>
+ </build>
+
+
+
+
+
+<dependencies>
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.9.0</version>
+</dependency>
+
+
+  <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+ <dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>1.2.6</version>
+    
+</dependency>
+        <dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>1.2.6</version>
+    
+    
+</dependency>
+      
+ <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.1.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.9</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-http-jdk-client -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-http-jdk-client</artifactId>
+    <version>4.9.0</version>
+</dependency>
+
+ </dependencies>
+  
+</project>
+
